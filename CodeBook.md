@@ -21,23 +21,39 @@ Number indicating on a person who provided measurements:
 
 1..30
 
-**tBodyAcc_mean|std-X|Y|Z
-tGravityAcc_mean|std-X|Y|Z
-tBodyAccJerk_mean|std-X|Y|Z
-tBodyGyro_mean|std-X|Y|Z
-tBodyGyroJerk_mean|std-X|Y|Z
-tBodyAccMag_mean|std
-tGravityAccMag_mean|std
-tBodyAccJerkMag_mean|std
-tBodyGyroMag_mean|std
-tBodyGyroJerkMag_mean|std
-fBodyAcc_mean|std-X|Y|Z
-fBodyAccJerk_mean|std-X|Y|Z
-fBodyGyro_mean|std-X|Y|Z
-fBodyAccMag_mean|std
-fBodyAccJerkMag_mean|std
-fBodyGyroMag_mean|std
-fBodyGyroJerkMag_mean|std**			*double*
+**tBodyAcc_mean|std-X|Y|Z**			*double*
+
+**tGravityAcc_mean|std-X|Y|Z**			*double*
+
+**tBodyAccJerk_mean|std-X|Y|Z**			*double*
+
+**tBodyGyro_mean|std-X|Y|Z**			*double*
+
+**tBodyGyroJerk_mean|std-X|Y|Z**			*double*
+
+**tBodyAccMag_mean|std**			*double*
+
+**tGravityAccMag_mean|std**			*double*
+
+**tBodyAccJerkMag_mean|std**			*double*
+
+**tBodyGyroMag_mean|std**			*double*
+
+**tBodyGyroJerkMag_mean|std**			*double*
+
+**fBodyAcc_mean|std-X|Y|Z**			*double*
+
+**fBodyAccJerk_mean|std-X|Y|Z**			*double*
+
+**fBodyGyro_mean|std-X|Y|Z**			*double*
+
+**fBodyAccMag_mean|std**			*double*
+
+**fBodyAccJerkMag_mean|std**			*double*
+
+**fBodyGyroMag_mean|std**			*double*
+
+**fBodyGyroJerkMag_mean|std**			*double*
 
 Variables with measurements gathered from sensors.
 Their names describing them in such format that first letter
