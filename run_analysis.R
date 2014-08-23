@@ -52,3 +52,4 @@ test_sub <- read.table("test/subject_test.txt")
 dataset$subject <- rbind(train_sub, test_sub)[, 1]
 tidy_dataset <- aggregate(data.matrix(dataset[, 1:65]) ~ activity+subject,
                           data=dataset, mean)
+write.table(tidy_dataset, file="tidy_dataset.txt", row.names=FALSE)
